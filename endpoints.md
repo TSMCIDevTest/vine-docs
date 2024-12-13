@@ -2,7 +2,7 @@
 ## Featured Channels
 `GET /channels/featured`
 
-Do not put your API domain into iconUrl/retinaIconUrl. The app will do that.
+Do not put your CDN domain into iconUrl/retinaIconUrl. The app will do that.
 
 Response data:
 
