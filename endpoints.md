@@ -166,3 +166,23 @@ Response data:
 "success": true,
 "error": ""
 }`
+## Follow user
+`POST /users/(user id)/followers`
+
+Response data:
+
+`{
+    "code": "",
+    "data": [],
+    "success": true
+}`
+## Unfollow user
+`DELETE /users/(user id)/followers`
+
+Response data:
+
+`{
+    "code": "",
+    "data": [],
+    "success": true
+}`
