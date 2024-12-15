@@ -6,4 +6,4 @@ Actually good documentation of the Vine API and a few other Vine app related thi
 
 [View patching guide](https://github.com/bruhdudeisdead/vine-docs/blob/main/patching.md)
 
-[View app URLs stuff](https://github.com/bruhdudeisdead/vine-docs/blob/main/app_urls.md)
+[View app URL list](https://github.com/bruhdudeisdead/vine-docs/blob/main/app_urls.md)
