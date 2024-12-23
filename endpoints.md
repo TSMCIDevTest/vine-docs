@@ -73,7 +73,7 @@ Request data:
 * `thumbnailUrl` - The video thumbnail URL. Provided by the thumbnail upload endpoint.
 * `description` - The video description. Provided by the app.
 * `entities` - Entities, most of the time only mentions. For tags, you'll need to get them from the video description. `[{'type': 'mention', 'id': <userId>, 'text': <username>, 'range': [start, end]}]`
-* `[forsquareVenueId]` - The foursquare venue ID. Only provided by the app if the user wants to attach a location. This should be used for getting info from the foursquare API and providing the necessary information in timelines.
+* `[foursquareVenueId]` - The foursquare venue ID. Only provided by the app if the user wants to attach a location. This should be used for getting info from the foursquare API and providing the necessary information in timelines.
 * `[venueName]` - The foursquare venue name. Only provided by the app if the user wants to attach a location.
 * `[channelId]` - The channel ID. Only provided by the app if the user wants to post to a channel.
 
@@ -102,7 +102,7 @@ Response data: X-Upload-Key header, which should be the final thumbnail URL.
 
 Request data: JPEG image data
 
-Response data: Just send 200 OK if successful.
+Response data: X-Upload-Key header, which should be the final thumbnail URL.
 # Users
 ## Get followers
 `GET /users/(user id)/followers`
